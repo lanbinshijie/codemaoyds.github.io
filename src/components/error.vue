@@ -3,7 +3,7 @@
     <div class="error">
       <h1>404</h1>
       <p>呀……网页走丢了</p>
-      <router-link to="/"><button>返回首页</button></router-link>
+      <a href="/"><button>返回首页</button></a>
     </div>
   </div>
 </template>

@@ -7,21 +7,18 @@
     </div>
     <div class="nav">
       <div style="width:90%;display:inline-block">
-        <router-link to="/">
+        <a href="/">
           <img src="https://static.codemao.cn/community/shequ_logo.png" class="logo" alt="logo" />
-        </router-link>
+        </a>
         <ul class="nav_ul">
-          <li>
-            <router-link to="/">首页</router-link>
+          <li class="this">
+            <a href="/">作品</a>
           </li>
           <li>
-            <router-link to="/works">作品</router-link>
+            <a href="/forum">论坛</a>
           </li>
           <li>
-            <router-link to="/forum">论坛</router-link>
-          </li>
-          <li>
-            <router-link to="/about">关于我们</router-link>
+            <a href="/about">关于我们</a>
           </li>
         </ul>
       </div>
@@ -159,6 +156,8 @@ body {
 export default {
   name: "app",
   components: {},
+  
 };
 </script>
+
 
