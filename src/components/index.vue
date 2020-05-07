@@ -150,10 +150,22 @@
 </style>
 <script>
 export default {
-  computed: {
-    works() {
-      return this.$store.state.works;
-    }
+  data() {
+    return {
+      works: []
+    };
+  },
+  // created() {
+  //   this.axios
+  //     .get(
+  //       "https://api.codemao.cn/web/works/subjects/211/works?&offset=0&limit=200&sort=-audited_at,-id"
+  //     )
+  //     .then(function(response) {
+  //       console.log(response);
+  //     });
+  // }
+  created() {
+    
   }
 };
 </script>
